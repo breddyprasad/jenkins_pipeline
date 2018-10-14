@@ -1,0 +1,10 @@
+
+node{
+  stage('SCM Checkout'){
+  git credentialsId: 'github', 
+  url 'https://github.com/breddyprasad/jenkins_pipeline'
+  branch: 'master'
+  }
+  }
+  
+  
